@@ -1,0 +1,114 @@
+
+body{
+    background-color: rebeccapurple;
+}
+#navigation{
+    flex-direction: column;
+    align-items: center;
+}
+#navigation .heading{
+    margin: 0px;
+    margin-top: 12px;
+}
+#navigation ul{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0px auto;
+    position: unset;
+}
+
+/* #navigation li{
+    position: relative;
+    left: 0px;
+} */
+
+#navigation .items, #navigation .cities{
+    padding: 1px 2px; 
+    margin: 1px 2px;
+}
+/* .heading{
+    font-size: 13px;
+} */
+#navigation::before {
+    position: absolute;
+    height: 157%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.1;
+    top: 0px;
+    left: 0px;
+}
+/* #navigation ul {
+    display: flex;
+    width: 75%;
+    justify-content: flex-start;
+    position: relative;
+    left: 0px;
+    top: 20px;
+} */
+
+.home-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-section .btn{
+    color: black;
+    border-radius: 18px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin: 15px;
+    width: 30%;
+    padding: 0px 15px;
+}
+
+.home-section #search-place {
+    padding: 6px;
+    margin: 2px;
+    background-color: transparent;
+    width: 232px;
+}
+
+#main-body{
+    flex-direction: column;
+    height: 1300px;
+}
+#main-body .box{
+    width: 100%;
+    margin: 2px;
+    padding: 0px;
+    height: 430px;
+}
+#main-body img {
+    height: 100px;
+}
+
+#main-body .box p{
+    padding: 0px;
+}
+
+
+#about-us .about-heading{
+    font-size: 1.3rem;
+}
+
+#about-us .our-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-us .our-description .description{
+    padding: 3px 0px ;
+    margin: 20px;
+}
+#about-us .our-description img {
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin: auto;
+}
